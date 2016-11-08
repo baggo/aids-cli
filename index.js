@@ -16,3 +16,18 @@ const cli = meow('
     o: 'offset'
   }
 })
+
+let offset = false
+let string
+
+if(cli.flags.offset) {
+  offset = true;
+}
+
+for(i = 0; i < cli.input[].length; i++) {
+  if(cli.input[i] != '-o' || cli.input[i] != '--output') {
+    string += cli.input[i]
+  }
+}
+
+console.log(aids(string, offset))

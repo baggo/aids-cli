@@ -6,15 +6,13 @@ const cli = meow('
     $ aids <text>
 
   Options
-    -u, --upper  Start text with an uppcase letter
-    -l, --lower  Start text with a lowercase letter
+    -o, --offset  Start with a lowercase letter instead of uppercase
 
   Examples
-    $ aids aids -l
+    $ aids aids -o
     aIdS
 ', {
   alias: {
-    u: 'upper',
-    l: 'lower'
+    o: 'offset'
   }
 })

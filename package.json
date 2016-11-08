@@ -1,0 +1,33 @@
+{
+  "name": "aids-cli",
+  "version": "0.0.1",
+  "description": "MaKeS eVeRy OtHeR lEtTeR cApItAlIzEd but in CLI.",
+  "main": "index.js",
+  "dependencies": {
+    "aids": "^0.0.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo No TeSt CoMmAnD!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prestonkyles/aids-cli.git"
+  },
+  "keywords": [
+    "aids",
+    "capitalized",
+    "capital",
+    "letter",
+    "every",
+    "other",
+    "cli"
+  ],
+  "author": "Preston Kyles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prestonkyles/aids-cli/issues"
+  },
+  "homepage": "https://github.com/prestonkyles/aids-cli#readme"
+}

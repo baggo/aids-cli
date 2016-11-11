@@ -9,11 +9,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo No TeSt CoMmAnD!"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prestonkyles/aids-cli.git"
+  },
+  "bin": {
+    "aids": "index.js"
   },
   "keywords": [
     "aids",

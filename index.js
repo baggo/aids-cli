@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const aids = require('aids')
 const cmd = require('commander')
 const package = require('./package.json')

@@ -1,6 +1,6 @@
 {
   "name": "aids-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MaKeS eVeRy OtHeR lEtTeR cApItAlIzEd but in CLI.",
   "main": "index.js",
   "dependencies": {

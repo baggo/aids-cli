@@ -1,20 +1,18 @@
 const aids = require('aids')
-const meow = require('meow')
+const cmd = require('commander')
+const package = require('./package.json')
+let text = '';
 
-const cli = meow('
-  Usage
-    $ aids <text>
+cmd
+  .version(package.version)
+  .description(package.description)
+  .usage('[options] [text]')
+  .option('-o, --offset', 'Output capital letter with an offset')
+  .parse(process.argv);
 
-  Options
-    -u, --upper  Start text with an uppcase letter
-    -l, --lower  Start text with a lowercase letter
+for(let i in cmd.args) {
+  text += cmd.args[i] + " "
+  i++
+}
 
-  Examples
-    $ aids aids -l
-    aIdS
-', {
-  alias: {
-    u: 'upper',
-    l: 'lower'
-  }
-})
+text != '' ? console.log(aids(text, cmd.offset)) : cmd.help()

@@ -4,8 +4,8 @@
   "description": "MaKeS eVeRy OtHeR lEtTeR cApItAlIzEd but in CLI.",
   "main": "index.js",
   "dependencies": {
-    "aids": "^0.0.2",
-    "meow": "^3.7.0"
+    "aids": "0.1.0",
+    "commander": "^2.9.0"
   },
   "devDependencies": {},
   "scripts": {

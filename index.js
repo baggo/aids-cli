@@ -2,7 +2,6 @@
 
 const aids = require('aids')
 const cmd = require('commander')
-const copy = require('copy-paste')
 const package = require('./package.json')
 let text = '';
 
@@ -20,8 +19,6 @@ for (let i in cmd.args) {
 
 if (text != '') {
   console.log(aids(text, cmd.offset))
-  copy.copy(aids(text, cmd.offset))
-  process.exit()
 } else {
   cmd.help()
 }

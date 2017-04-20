@@ -27,4 +27,4 @@ aids -o aids
 
 ## License
 
-MIT © [Preston Kyles](https://github.com/prestonkyles)
+Do whatever you want.

@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prestonkyles/aids-cli.git"
+    "url": "git+https://github.com/baggo/aids-cli.git"
   },
   "bin": {
     "aids": "index.js"
@@ -30,7 +30,7 @@
   "author": "Preston Kyles",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/prestonkyles/aids-cli/issues"
+    "url": "https://github.com/baggo/aids-cli/issues"
   },
-  "homepage": "https://github.com/prestonkyles/aids-cli#readme"
+  "homepage": "https://github.com/baggo/aids-cli#readme"
 }

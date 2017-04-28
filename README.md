@@ -18,11 +18,11 @@ Turn the text into alternating capital and lowercase letters.
 #### Example
 
 ```sh
-aids aids
-# AiDs
+aids foo
+# FoO
 
 aids -o aids
-# aIdS
+# bAr
 ```
 
 ## License
